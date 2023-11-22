@@ -45,9 +45,11 @@ while cards is not None:
        count = deck.Count()
    print(f"Remaining cards in deck: {count}")
    choice = input("Deal again (y/n)")
-   if choice.lower == "n" :
+   if choice.lower == "n":
       break
 print("No more cards in deck")
+
+
 
 
 
